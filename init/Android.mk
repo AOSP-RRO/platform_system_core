@@ -88,7 +88,11 @@ LOCAL_STATIC_LIBRARIES := \
     libmincrypt \
     libext4_utils_static \
     libext2_blkid \
+<<<<<<< HEAD
     libext2_uuid_static \
+=======
+    libext2_uuid \
+>>>>>>> 93a0c2a... fs_mgr: Skip filesystem check unless fs_type matches
     libc++_static \
     libdl \
     libsparse_static \
