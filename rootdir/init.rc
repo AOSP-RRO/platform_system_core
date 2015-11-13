@@ -571,7 +571,6 @@ on property:sys.sysctl.tcp_def_init_rwnd=*
 service sysinit /system/bin/sysinit
     user root
     oneshot
-    disabled
 
 service ueventd /sbin/ueventd
     class core
