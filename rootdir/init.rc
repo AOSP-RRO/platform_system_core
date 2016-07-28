@@ -11,7 +11,7 @@ import /init.usb.configfs.rc
 import /init.${ro.zygote}.rc
 import /init.trace.rc
 # Include local extra init file
-import /init.local.rc
+import /init.aosp.rc
 
 
 on early-init
